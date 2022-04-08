@@ -1,0 +1,4 @@
+<div id="classeInfo" *ngIf="user$|async as user" >
+  <p class="info">Nome: {{user.user.name}}</p>
+  <p class="info">Email: {{user.user.email}}</p>
+</div>
